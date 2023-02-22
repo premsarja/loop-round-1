@@ -1,0 +1,42 @@
+.
+├── cherry
+│   ├── asgi.py
+│   ├── __init__.py
+│   ├── router.py
+│   ├── settings
+│   │   ├── base.py
+│   │   ├── django_q.py
+│   │   ├── __init__.py
+│   │   └── redis.py
+│   ├── urls.py
+│   └── wsgi.py
+├── dir.tree
+├── django-q-1.0.tar.gz
+├── .env
+├── formatter.sh
+├── .gitignore
+├── graph.txt
+├── inputs
+│   ├── store-hours.csv
+│   ├── store-status.csv
+│   └── store-zone.csv
+├── manage.py
+├── Pipfile
+├── Pipfile.lock
+├── README.md
+├── shell_plus.py
+├── store
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── 0002_rename_store_id_storehours_store_and_more.py
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── utils.py
+│   └── views.py
+└── tox.ini
+
+5 directories, 34 files

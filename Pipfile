@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-rest-framework = "*"
+gunicorn = "*"
+django-filter = "*"
+django-cors-headers = "*"
+arrow = "==1.2.2"
+blessed = "==1.19.1"
+django-picklefield = "==3.0.1"
+redis = "*"
+requests = "*"
+psycopg2 = "*"
+
+[dev-packages]
+black = "*"
+isort = "*"
+
+[requires]
+python_version = "3.9"
+
+[packages.4656cb0]
+path = "./django-q-1.0.tar.gz"

@@ -16,10 +16,6 @@
 ├── formatter.sh
 ├── .gitignore
 ├── graph.txt
-├── inputs
-│   ├── store-hours.csv
-│   ├── store-status.csv
-│   └── store-zone.csv
 ├── manage.py
 ├── Pipfile
 ├── Pipfile.lock
@@ -28,13 +24,17 @@
 ├── store
 │   ├── admin.py
 │   ├── apps.py
+│   ├── export
 │   ├── __init__.py
 │   ├── migrations
 │   │   ├── 0001_initial.py
 │   │   ├── 0002_rename_store_id_storehours_store_and_more.py
 │   │   └── __init__.py
 │   ├── models.py
+│   ├── raw_sql.py
+│   ├── tasks.py
 │   ├── tests.py
+│   ├── urls.py
 │   ├── utils.py
 │   └── views.py
 └── tox.ini

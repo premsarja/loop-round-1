@@ -6,11 +6,12 @@ from pathlib import Path
 from .django_q import *
 from .redis import *
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY", "insecure")
 DEBUG = os.environ.get("DEBUG") == "True"
 
-ALLOWED_HOSTS = ["127.0.0.1"]
+WEBHOST = os.environ.get("WEBHOST", "localhost")
+ALLOWED_HOSTS = ["127.0.0.1", WEBHOST]
 
 INSTALLED_APPS = [
     "django.contrib.admin",

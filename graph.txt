@@ -1,10 +1,10 @@
 django-cors-headers==3.13.0
   - Django [required: >=3.2, installed: 4.1.7]
-    - asgiref [required: <4,>=3.5.2, installed: 3.6.0]
+    - asgiref [required: >=3.5.2,<4, installed: 3.6.0]
     - sqlparse [required: >=0.2.2, installed: 0.4.3]
 django-filter==22.1
   - Django [required: >=3.2, installed: 4.1.7]
-    - asgiref [required: <4,>=3.5.2, installed: 3.6.0]
+    - asgiref [required: >=3.5.2,<4, installed: 3.6.0]
     - sqlparse [required: >=0.2.2, installed: 0.4.3]
 django-q==1.0
   - arrow [required: ==1.2.2, installed: 1.2.2]
@@ -15,12 +15,12 @@ django-q==1.0
     - wcwidth [required: >=0.1.4, installed: 0.2.6]
   - django-picklefield [required: ==3.0.1, installed: 3.0.1]
     - Django [required: >=2.2, installed: 4.1.7]
-      - asgiref [required: <4,>=3.5.2, installed: 3.6.0]
+      - asgiref [required: >=3.5.2,<4, installed: 3.6.0]
       - sqlparse [required: >=0.2.2, installed: 0.4.3]
 django-rest-framework==0.1.0
   - djangorestframework [required: Any, installed: 3.14.0]
     - django [required: >=3.0, installed: 4.1.7]
-      - asgiref [required: <4,>=3.5.2, installed: 3.6.0]
+      - asgiref [required: >=3.5.2,<4, installed: 3.6.0]
       - sqlparse [required: >=0.2.2, installed: 0.4.3]
     - pytz [required: Any, installed: 2022.7.1]
 gunicorn==20.1.0
@@ -32,6 +32,6 @@ redis==4.5.1
 requests==2.28.2
   - certifi [required: >=2017.4.17, installed: 2022.12.7]
   - charset-normalizer [required: <4,>=2, installed: 3.0.1]
-  - idna [required: <4,>=2.5, installed: 3.4]
+  - idna [required: >=2.5,<4, installed: 3.4]
   - urllib3 [required: >=1.21.1,<1.27, installed: 1.26.14]
 

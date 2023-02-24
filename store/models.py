@@ -1,6 +1,7 @@
 # django imports
 from django.db import models
 
+
 class Store(models.Model):
     store_id = models.PositiveBigIntegerField(primary_key=True, db_index=True)
     time_zone_str = models.CharField(max_length=50)

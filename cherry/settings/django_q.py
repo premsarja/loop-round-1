@@ -5,7 +5,7 @@ REDIS_Q = {"host": REDIS_HOST, "port": REDIS_PORT, "db": 1, "password": REDIS_PA
 
 Q_CLUSTER = {
     "name": "cherry",
-    "workers": 4,
+    "workers": 2,
     # 'recycle': 500,
     "timeout": 60,
     "retry": 100,

@@ -11,7 +11,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "insecure")
 DEBUG = os.environ.get("DEBUG") == "True"
 
 WEBHOST = os.environ.get("WEBHOST", "localhost")
-ALLOWED_HOSTS = ["127.0.0.1", WEBHOST]
+ALLOWED_HOSTS = ["127.0.0.1","localhost",  WEBHOST]
 
 INSTALLED_APPS = [
     "django.contrib.admin",
